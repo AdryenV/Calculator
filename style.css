@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.calculator{
+    padding:10px;
+    border-radius:1em;
+    height:300px;
+    width:200px;
+    margin-top: auto;
+    background-color: black; /*changed from black to this */
+    box-shadow: rgba(0,0,0,0.19) 0px 10px 20px, 
+    rgba(0,0,0,0.23) 0px 6px 6px;
+}
+
+
+.display-box{
+    text-align: right;
+    font-family: 'Orbitron', sans-serif;
+    background-color: black; /*changed from black to this*/
+    border: solid black 0.5px;
+    color: white; /*this was changed from white to black*/
+    border-radius:1px;
+    width:200px;
+    height:100px;
+}
+
+.answer-box{
+    text-align: right;
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    border: solid black 0.5px;
+    color: white;
+    border-radius: 1px;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.letterbutton{
+    margin: 2em auto;
+}
+#eql{
+    background-color: #5e5e5e;
+}
+
+
+input[type=button]{
+    margin-top: auto;
+    font-family: 'Orbitron', sans-serif;/* added this */
+    background-color:#1b1b1b; /*changed from 1b1b1b*/
+    color:white;
+    border: solid black 0.5px;/*added this*/
+    width:50px;
+    border-radius: 50%;
+    height:50px;
+    outline:none;
+}
+
+input:active[type=button]{
+    background:#e5e5e5; /*changed from 1b1b1b*/
+    -webkit-box-shadow: inset 0px 0px 5px #1b1b1b;
+    -moz-box-shadow: inset 0px 0px 5px #1b1b1b;
+    box-shadow: inset 0px 0px 5px #1b1b1b;
+}
